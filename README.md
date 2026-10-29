@@ -73,15 +73,15 @@ flowchart LR
 
 | Caminho | O que é |
 |---|---|
-| `scripts/Organizar-ASOs.ps1` | Distribui os PDFs para `Colaborador\ASO`, com normalização de nomes, tratamento de homônimos e relatório acumulativo |
-| `scripts/Atualizar-PlanilhasOrigem.ps1` | Mantém o Power Query sempre apontando para a exportação mais recente, identificada pela data no nome do arquivo |
-| `scripts/Atualizar-BaseLembretes.ps1` | Atualiza o Power Query (Excel via COM) antes do fluxo de lembretes, com validação dupla |
-| `exemplos/Criar-AmbienteDemo.ps1` | Cria um ambiente fictício em `C:\Demo` para testar os scripts |
-| `exemplos/log_robo_conferencia_DEMO.log` | Exemplo de log do robô de conferência |
-| `exemplos/conferencia_DEMO.csv` | Exemplo de saída da conferência (planilha × clínica × ASO) |
-| `docs/robo-conferencia.md` | Como o robô de conferência funciona (sem código) |
-| `docs/fluxos-power-automate.md` | Desenho dos fluxos de nuvem |
-| `docs/metodo-economia.md` | Como a economia de horas foi estimada |
+| [`scripts/Organizar-ASOs.ps1`](scripts/Organizar-ASOs.ps1) | Distribui os PDFs para `Colaborador\ASO`, com normalização de nomes, tratamento de homônimos e relatório acumulativo |
+| [`scripts/Atualizar-PlanilhasOrigem.ps1`](scripts/Atualizar-PlanilhasOrigem.ps1) | Mantém o Power Query sempre apontando para a exportação mais recente, identificada pela data no nome do arquivo |
+| [`scripts/Atualizar-BaseLembretes.ps1`](scripts/Atualizar-BaseLembretes.ps1) | Atualiza o Power Query (Excel via COM) antes do fluxo de lembretes, com validação dupla |
+| [`exemplos/Criar-AmbienteDemo.ps1`](exemplos/Criar-AmbienteDemo.ps1) | Cria um ambiente fictício em `C:\Demo` para testar os scripts |
+| [`exemplos/log_robo_conferencia_DEMO.log`](exemplos/log_robo_conferencia_DEMO.log) | Exemplo de log do robô de conferência |
+| [`exemplos/conferencia_DEMO.csv`](exemplos/conferencia_DEMO.csv) | Exemplo de saída da conferência (planilha × clínica × ASO) |
+| [`docs/robo-conferencia.md`](docs/robo-conferencia.md) | Como o robô de conferência funciona (sem código) |
+| [`docs/fluxos-power-automate.md`](docs/fluxos-power-automate.md) | Desenho dos fluxos de nuvem |
+| [`docs/metodo-economia.md`](docs/metodo-economia.md) | Como a economia de horas foi estimada |
 
 ## Por que o robô de conferência não tem código aqui
 
